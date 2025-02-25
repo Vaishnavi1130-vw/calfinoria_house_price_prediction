@@ -1,19 +1,54 @@
-This directory includes a few sample datasets to get you started.
+A machine learning model that predicts house prices in California based on features like location, population, income, and more. The dataset is based on the California Housing Dataset
+This project applies XGBoost Regression to predict house prices based on various economic and demographic features. The model is trained and tested using the California Housing Dataset, ensuring high accuracy in price prediction.
 
-*   `california_housing_data*.csv` is California housing data from the 1990 US
-    Census; more information is available at:
-    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
+🔹 Features
+Machine Learning-based house price prediction
+Uses XGBoost for better accuracy
+Flask API for model deployment
+Interactive user interface for predictions
 
-*   `mnist_*.csv` is a small sample of the
-    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
-    described at: http://yann.lecun.com/exdb/mnist/
+## Project Structure
 
-*   `anscombe.json` contains a copy of
-    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
-    was originally described in
+📂 Project-Name
+┣ 📂 src
+┃ ┣ 📜 main.py
+┃ ┣ 📜 utils.py
+┣ 📂 data
+┃ ┣ 📜 dataset.csv
+┣ 📂 models
+┃ ┣ 📜 model.pkl
+┣ 📜 README.md
+┣ 📜 requirements.txt
 
-    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
-    Statistician. 27 (1): 17-21. JSTOR 2682899.
 
-    and our copy was prepared by the
-    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
+👉 **Modify this based on your actual folder and file structure.**  
+
+### **Steps to Add This to README:**
+1. Open the README.md file in your GitHub repository.
+2. Click **Edit**.
+3. Scroll to the bottom (or any appropriate place).
+4. Paste the project structure.
+5. Click **Commit changes**.
+
+This will make your README more professional and organized! Let me know if you need help formatting it. 🚀
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+2️⃣ Create & Activate Virtual Environment (Optional but Recommended)
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Run the Project
+python main.py
